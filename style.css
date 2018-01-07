@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400i|Montserrat:700');
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Merriweather", serif;
+	background-color: #FEFAE0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+	width: 80%;
+	max-width: 960px;
+	margin: 20px auto;
+	background-color: #606C38;
+}
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+	padding: 25px 10px;
+	color: #FEFAE0;
+}
+
+.search-engine {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.search-engine form {
+	padding: 10px;
+	background-color: #283618;
+	border-radius: 10px;
+	width: 50%;
+	margin: 0 auto 15px;
+}
+
+.search-engine label {
+	padding: 10px;
+	color: #FEFAE0;
+}
+
+.search-engine input {
+	
+}
+
+.user-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+.user {
+	width: 220px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: #FEFAE0;
+	border: 4px solid #DDA15E;
+}
+
+.user img {
+	display: block;
+	margin: 0 auto 5px;
+	border-radius: 50%;
+	border: 4px solid #DDA15E;
+}
+
+.user a {
+ color: #DDA15E;
+ text-decoration: none;
+}
+
+.user a:hover {
+	color: #BC6C25;
+}
